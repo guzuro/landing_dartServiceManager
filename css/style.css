@@ -97,7 +97,19 @@ body {
    font-size: 15px !important;
 }
 
-.header {}
+@media (min-width: 1200px) {
+   .container {
+      max-width: 1440px !important;
+   }
+}
+
+
+.header {
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+}
 
 .header__item {
    margin: 0px 0px 0px 20px;
@@ -134,8 +146,54 @@ body {
    color: #fff;
 }
 
+/*home section*/
 .home {
    background: url("../img/bg1.jpg") no-repeat;
    background-size: cover;
    height: 740px;
+   padding: 150px 0px 0px 0px;
+}
+
+@media (min-width: 576px) {
+   .home {
+      padding: 100px 0px 0px 0px;
+   }
+}
+
+@media (min-width: 992px) {
+   .home {
+      padding: 245px 0px 0px 0px;
+   }
+}
+
+.home__inner {
+   color: #fff;
+}
+
+.home__title {
+   font-size: 55px;
+   font-weight: 900;
+   text-transform: uppercase;
+}
+
+.home__text {
+   font-size: 18px;
+   font-weight: 500;
+   line-height: 36px;
+}
+
+.home__buttons {
+   margin: 40px 0px 0px 0px;
+}
+
+.btn {
+   text-transform: uppercase;
+   font-weight: 600 !important;
+   font-size: 15px !important;
+   width: 150px;
+   height: 60px;
+}
+
+.btn-dark {
+   background-color: #061e37 !important;
 }
