@@ -303,3 +303,39 @@ body {
 .counts__body p {
    margin-bottom: 0;
 }
+
+/*services section*/
+.services {
+   padding: 30px 0px;
+}
+
+
+@media (min-width: 576px) {
+   .services {
+      padding: 100px 0;
+   }
+}
+
+.services__inner {}
+
+.services__title {
+   text-align: center;
+
+}
+
+.services__text {
+   text-align: center;
+}
+
+.services__card{
+   box-shadow: 0px 3px 5px gray;
+}
+
+.services__header {
+   font-weight: 500;
+   text-transform: uppercase;
+}
+
+.services__body {}
+
+.services__content {}
