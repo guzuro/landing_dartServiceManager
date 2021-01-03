@@ -197,13 +197,13 @@
                   <div class='services__accordeon mt-5' id="accordion">
 
                      <div class="card mt-2 services__card">
-                        <div class="services__header pt-3 pb-3 pl-4 pr-4" id="headingOne">
+                        <div class="services__header pt-3 pb-3 pl-4 pr-4" id="headingOne" data-toggle="collapse"
+                           data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                            <div class="services__icon d-inline mr-3">
                               <img src="/img/icons/trending_up.png" alt="">
                            </div>
                            <span class="services__body">statistics</span>
-                           <i class="fas fa-caret-down float-right" data-toggle="collapse" data-target="#collapseOne"
-                              aria-expanded="true" aria-controls="collapseOne"></i>
+                           <i class="fas fa-caret-down float-right"></i>
                         </div>
 
                         <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
@@ -226,13 +226,13 @@
                      </div>
 
                      <div class="card mt-2 services__card">
-                        <div class="services__header pt-3 pb-3 pl-4 pr-4" id="headingTwo">
+                        <div class="services__header pt-3 pb-3 pl-4 pr-4" id="headingTwo" data-toggle="collapse"
+                           data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
                            <div class="services__icon d-inline mr-3">
                               <img src="/img/icons/mail.png" alt="">
                            </div>
                            <span class="services__body">inbox</span>
-                           <i class="fas fa-caret-down float-right" data-toggle="collapse" data-target="#collapseTwo"
-                              aria-expanded="true" aria-controls="collapseTwo"></i>
+                           <i class="fas fa-caret-down float-right"></i>
                         </div>
 
                         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
@@ -253,13 +253,13 @@
                      </div>
 
                      <div class="card mt-2 services__card">
-                        <div class="services__header pt-3 pb-3 pl-4 pr-4" id="headingThree">
+                        <div class="services__header pt-3 pb-3 pl-4 pr-4" id="headingThree" data-toggle="collapse"
+                           data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
                            <div class="services__icon d-inline mr-3">
                               <img src="/img/icons/group.png" alt="">
                            </div>
                            <span class="services__body">team</span>
-                           <i class="fas fa-caret-down float-right" data-toggle="collapse" data-target="#collapseThree"
-                              aria-expanded="true" aria-controls="collapseThree"></i>
+                           <i class="fas fa-caret-down float-right"></i>
                         </div>
 
                         <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
@@ -277,13 +277,13 @@
                      </div>
 
                      <div class="card mt-2 services__card">
-                        <div class="services__header pt-3 pb-3 pl-4 pr-4" id="headingFour">
+                        <div class="services__header pt-3 pb-3 pl-4 pr-4" id="headingFour" data-toggle="collapse"
+                           data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
                            <div class="services__icon d-inline mr-3">
                               <img src="/img/icons/settings.png" alt="">
                            </div>
                            <span class="services__body">settings</span>
-                           <i class="fas fa-caret-down float-right" data-toggle="collapse" data-target="#collapseFour"
-                              aria-expanded="true" aria-controls="collapseFour"></i>
+                           <i class="fas fa-caret-down float-right"></i>
                         </div>
 
                         <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
@@ -301,13 +301,13 @@
                      </div>
 
                      <div class="card mt-2 services__card">
-                        <div class="services__header pt-3 pb-3 pl-4 pr-4" id="headingFive">
+                        <div class="services__header pt-3 pb-3 pl-4 pr-4" id="headingFive" data-toggle="collapse"
+                           data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
                            <div class="services__icon d-inline mr-3">
                               <img src="/img/icons/rss_feed.png" alt="">
                            </div>
                            <span class="services__body">feed</span>
-                           <i class="fas fa-caret-down float-right" data-toggle="collapse" data-target="#collapseFive"
-                              aria-expanded="true" aria-controls="collapseFive"></i>
+                           <i class="fas fa-caret-down float-right"></i>
                         </div>
 
                         <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
@@ -331,6 +331,141 @@
          </div>
       </div>
    </section>
+
+
+   <!--testimonials-->
+   <section class="testimonials">
+      <div class="container">
+         <div class="testimonials__inner">
+            <div class="row mt-5">
+               <div class="testimonials__body col-lg-5 mb-5 mt-5">
+                  <h3 class="testimonials__title title">What our customers <br>
+                     have to say about us.</h3>
+                  <p class="testimonials__text text">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                     labore et dolore magna
+                  </p>
+                  <button class="tetimonials__button btn btn-dark mt-5">get started</button>
+               </div>
+               <div class="testimonials__reviews col-lg-7 pb-5">
+
+
+
+                  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                     <div class="testimonials__content carousel-inner">
+                        <div class="carousel-item active">
+
+                           <ul class="list-unstyled">
+                              <li class="media">
+                                 <img class="testimonials__image mr-5" src="/img/icons/Ellipse 2.png"
+                                    alt="Generic placeholder image">
+                                 <div
+                                    class="testimonials__review media-body d-flex flex-column justify-content-center  p-4">
+                                    <h5 class="mt-0 mb-2">John Doe</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                    sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+                                    Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in
+                                    faucibus.
+                                 </div>
+                              </li>
+                              <li class="media my-4">
+                                 <img class="testimonials__image mr-5" src="/img/icons/Ellipse 21 copy.png"
+                                    alt="Generic placeholder image">
+                                 <div
+                                    class="testimonials__review media-body d-flex flex-column justify-content-center p-4">
+                                    <h5 class="mt-0 mb-2">Khalessi</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                    sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+                                    Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in
+                                    faucibus.
+                                 </div>
+                              </li>
+                           </ul>
+
+                        </div>
+                        <div class="carousel-item">
+                           <ul class="list-unstyled">
+                              <li class="media">
+                                 <img class="testimonials__image mr-5" src="/img/icons/Ellipse 21 copy.png"
+                                    alt="Generic placeholder image">
+
+                                 <div
+                                    class="testimonials__review media-body d-flex flex-column justify-content-center  p-4">
+                                    <h5 class="mt-0 mb-2">Khalessi</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                    sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+                                    Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in
+                                    faucibus.
+                                 </div>
+                              </li>
+                              <li class="media my-4">
+                                 <img class="testimonials__image mr-5" src="/img/icons/Ellipse 2.png"
+                                    alt="Generic placeholder image">
+
+                                 <div
+                                    class="testimonials__review media-body d-flex flex-column justify-content-center p-4">
+                                    <h5 class="mt-0 mb-2">John Doe</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                    sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+                                    Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in
+                                    faucibus.
+                                 </div>
+                              </li>
+                           </ul>
+
+                        </div>
+                        <div class="carousel-item">
+                           <ul class="list-unstyled">
+                              <li class="media">
+                                 <img class="testimonials__image mr-5" src="/img/icons/Ellipse 21 copy.png"
+                                    alt="Generic placeholder image">
+                                 <div
+                                    class="testimonials__review media-body d-flex flex-column justify-content-center  p-4">
+                                    <h5 class="mt-0 mb-2">Alesya</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                    sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+                                    Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in
+                                    faucibus.
+                                 </div>
+                              </li>
+                              <li class="media my-4">
+
+                                 <img class="testimonials__image mr-5" src="/img/icons/Ellipse 2.png"
+                                    alt="Generic placeholder image">
+                                 <div
+                                    class="testimonials__review media-body d-flex flex-column justify-content-center p-4">
+                                    <h5 class="mt-0 mb-2">Ivan Doe</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                    sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+                                    Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in
+                                    faucibus.
+                                 </div>
+                              </li>
+                           </ul>
+
+                        </div>
+                     </div>
+                     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <i class="testimonials__arrow fas fa-angle-up" aria-hidden="true"></i>
+                     </a>
+                     <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <i class="testimonials__arrow fas fa-angle-down" aria-hidden="true"></i>
+                     </a>
+                  </div>
+
+
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+
+
+
+
+
+
 
    <!-- Optional JavaScript -->
    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
