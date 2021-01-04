@@ -502,3 +502,24 @@ body {
 .contact__checkbox {
    text-align: left;
 }
+
+
+/*footer*/
+.footer {
+   background-color: #061e37;
+}
+
+.footer__list li {
+   color: #fff;
+   display: inline-block;
+}
+
+.footer__list a {
+   color: #fff;
+}
+
+.nav-color{
+   background-color: #18d4c7;
+   position: relative;
+   z-index: 5;
+}
