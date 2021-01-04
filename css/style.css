@@ -477,3 +477,28 @@ body {
    cursor: pointer;
    color: #b0bec5;
 }
+
+/*contact*/
+.contact {
+   background-color: #fafafa;
+   text-align: center;
+}
+
+.contact__text {
+   color: black;
+}
+
+.contact__input {
+   height: 50px !important;
+   border-color: black !important;
+}
+
+.contact__textarea {
+   resize: none !important;
+   border-color: black !important;
+
+}
+
+.contact__checkbox {
+   text-align: left;
+}
